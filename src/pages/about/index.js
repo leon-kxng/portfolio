@@ -9,6 +9,7 @@ import {
   skills,
   services,
 } from "../../content_option";
+import { Link } from "react-router-dom";
 
 export const About = () => {
   return (
@@ -96,14 +97,14 @@ export const About = () => {
         </Row>
         <Row className="sec_sp">
           <Col lg={{ span: 6, offset: 3 }} className="text-center">
-            <a href="../../assets/RÉSUMÉ.pdf" target="_blank">
+            <Link to="https://raw.githubusercontent.com/leon-kxng/portfolio/master/src/assets/RÉSUMÉ.pdf">
               <button className="ac_btn btn-portfolio">
                 <span>View my RÉSUMÉ</span>
                 <div class="ring one"></div>
                 <div class="ring two"></div>
                 <div class="ring three"></div>
               </button>
-            </a>
+            </Link>
           </Col>
         </Row>
       </Container>
