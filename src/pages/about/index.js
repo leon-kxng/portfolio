@@ -96,7 +96,7 @@ export const About = () => {
         </Row>
         <Row className="sec_sp">
           <Col lg={{ span: 6, offset: 3 }} className="text-center">
-            <a href="https://raw.githubusercontent.com/leon-kxng/portfolio/master/src/assets/RÉSUMÉ.pdf" target="_blank" rel="noreferrer">>
+            <a href="https://raw.githubusercontent.com/leon-kxng/portfolio/master/src/assets/RÉSUMÉ.pdf" target="_blank" rel="noreferrer">
               <button className="ac_btn btn-portfolio">
                 <span>View my RÉSUMÉ</span>
                 <div class="ring one"></div>
