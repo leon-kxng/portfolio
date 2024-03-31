@@ -97,14 +97,14 @@ export const About = () => {
         </Row>
         <Row className="sec_sp">
           <Col lg={{ span: 6, offset: 3 }} className="text-center">
-            <Link to="/resume"> {/* Replace "/resume" with the actual path to your resume page */}
+            <a href="../../assets/RÉSUMÉ.pdf" target="_blank">
               <button className="ac_btn btn-portfolio">
                 <span>View my RÉSUMÉ</span>
                 <div class="ring one"></div>
                 <div class="ring two"></div>
                 <div class="ring three"></div>
               </button>
-            </Link>
+            </a>
           </Col>
         </Row>
       </Container>
