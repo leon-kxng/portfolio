@@ -9,7 +9,6 @@ import {
   skills,
   services,
 } from "../../content_option";
-import { Link } from "react-router-dom";
 
 export const About = () => {
   return (
